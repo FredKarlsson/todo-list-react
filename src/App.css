@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > * {
+  margin-right: 1rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo > * {
+  margin: 1rem;
+}
